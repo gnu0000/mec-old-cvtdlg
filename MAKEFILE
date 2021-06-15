@@ -1,0 +1,19 @@
+all : CvtDlg.exe
+ 
+
+#
+# optimized version
+#
+#.c.obj:
+#   cl /W3 /c /AS /Ox Gr /nologo $*.c
+
+.c.obj:
+   cl /W3 /c /AS /Od /Zi /nologo $*.c
+
+CvtDlg.exe : CvtDlg.obj arg.obj
+  link $* arg setargv.obj,,NUL,os2 slibcep/NOD/NOE/CO,$*.def
+  bind $*.exe
+
+
+
+ 

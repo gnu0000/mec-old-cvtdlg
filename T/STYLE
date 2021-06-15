@@ -1,0 +1,18 @@
+;Style Translations:
+
+;WIN Class   WIN Style              OS/2 Class  OS/2 Style
+;-----------------------------------------------------------------
+ HighEstListBoxb     LBS_STANDARD           *           <warning>           
+ HighEstListBoxb     LBS_EXTENDEDSEL        *           LS_MULTIPLESEL      
+ HighEstListBoxb     LBS_HASSTRINGS         *           <warning>           
+ HighEstListBoxb     LBS_NOTIFY             *           <blank>             
+ HighEstListBoxb     LBS_MULTIPLESEL        *           LS_MULTIPLESEL      
+ HighEstListBoxb     LBS_MULTICOLUMN        *           LS_HORIZSCROLL      
+ HighEstListBoxb     LBS_NOINTEGRALHEIGHT   *           LS_NOADJUSTPOS      
+ HighEstListBoxb     LBS_SORT               *           <warning>           
+ HighEstListBoxb     LBS_NOREDRAW           *           <warning>           
+ HighEstListBoxb     LBS_OWNERDRAWFIXED     *           LS_OWNERDRAW        
+ HighEstListBoxb     LBS_OWNERDRAWVARIABLE  *           LS_OWNERDRAW        
+ HighEstListBoxb     LBS_USETABSTOPS        *           <warning>           
+ HighEstListBoxb     LBS_WANTKEYBOARDINPUT  *           <warning>           
+ HighEstListBoxb     WS_VSCROLL             *           <blank>             

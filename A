@@ -1,0 +1,162 @@
+;Style Translations:
+
+;OS/2 Class      WIN Style          NEW OS/2 Class  OS/2 Style
+;-----------------------------------------------------------------
+ WC_BUTTON       BS_DEFPUSHBUTTON       *           BS_DEFAULT          
+ WC_BUTTON       BS_LEFTTEXT            *           <warning>           
+ WC_BUTTON       BS_GROUPBOX            WC_STATIC   SS_GROUPBOX         
+ WC_BUTTON       BS_OWNERDRAW           *           <warning>           
+ WC_BUTTON       *                      *           WS_VISIBLE          
+ WC_COMBOBOX     CBS_OWNERDRAWFIXED     *           <warning>           
+ WC_COMBOBOX     CBS_OWNERDRAWVARIABLE  *           <warning>           
+ WC_COMBOBOX     CBS_AUTOHSCROLL        *           <warning>           
+ WC_COMBOBOX     CBS_SORT               *           <warning>           
+ WC_COMBOBOX     CBS_HASSTRINGS         *           <warning>           
+ WC_COMBOBOX     CBS_OEMCONVERT         *           <warning>           
+ WC_COMBOBOX     WS_VSCROLL             *           <blank>             
+ WC_COMBOBOX     *                      *           WS_VISIBLE          
+ WC_ENTRYFIELD   ES_LOWERCASE           *           <warning>           
+ WC_ENTRYFIELD   ES_UPPERCASE           *           <warning>           
+ WC_ENTRYFIELD   ES_PASSWORD            *           ES_UNREADABLE       
+ WC_ENTRYFIELD   ES_MULTILINE           WC_MLE      <blank>             
+ WC_ENTRYFIELD   ES_AUTOVSCROLL         *           <blank>             
+ WC_ENTRYFIELD   ES_AUTOHSCROLL         *           ES_AUTOSCROLL       
+ WC_ENTRYFIELD   ES_NOHIDESEL           *           <warning>           
+ WC_ENTRYFIELD   ES_OEMCONVERT          *           <warning>           
+ WC_ENTRYFIELD   WS_BORDER              *           ES_MARGIN           
+ WC_ENTRYFIELD   *                      *           WS_VISIBLE          
+ WC_MLE          ES_LOWERCASE           *           <warning>           
+ WC_MLE          ES_UPPERCASE           *           <warning>           
+ WC_MLE          ES_PASSWORD            *           <warning>           
+ WC_MLE          ES_MULTILINE           *           <blank>             
+ WC_MLE          ES_BORDER              *           MLS_BORDER          
+ WC_MLE          WS_BORDER              *           MLS_BORDER          
+ WC_MLE          ES_AUTOVSCROLL         *           MLS_VSCROLL         
+ WC_MLE          ES_AUTOHSCROLL         *           MLS_HSCROLL         
+ WC_MLE          ES_NOHIDESEL           *           <warning>           
+ WC_MLE          ES_OEMCONVERT          *           <warning>           
+ WC_MLE          ES_LEFT                *           <blank>             
+ WC_MLE          ES_RIGHT               *           <blank>             
+ WC_MLE          ES_CENTER              *           <blank>             
+ WC_MLE          *                      *           WS_VISIBLE          
+ WC_LISTBOX      LBS_STANDARD           *           <warning>           
+ WC_LISTBOX      LBS_EXTENDEDSEL        *           LS_MULTIPLESEL      
+ WC_LISTBOX      LBS_HASSTRINGS         *           <warning>           
+ WC_LISTBOX      LBS_NOTIFY             *           <blank>             
+ WC_LISTBOX      LBS_MULTIPLESEL        *           LS_MULTIPLESEL      
+ WC_LISTBOX      LBS_MULTICOLUMN        *           LS_HORIZSCROLL      
+ WC_LISTBOX      LBS_NOINTEGRALHEIGHT   *           LS_NOADJUSTPOS      
+ WC_LISTBOX      LBS_SORT               *           <warning>           
+ WC_LISTBOX      LBS_NOREDRAW           *           <warning>           
+ WC_LISTBOX      LBS_OWNERDRAWFIXED     *           LS_OWNERDRAW        
+ WC_LISTBOX      LBS_OWNERDRAWVARIABLE  *           LS_OWNERDRAW        
+ WC_LISTBOX      LBS_USETABSTOPS        *           <warning>           
+ WC_LISTBOX      LBS_WANTKEYBOARDINPUT  *           <warning>           
+ WC_LISTBOX      WS_VSCROLL             *           <blank>             
+ WC_LISTBOX      *                      *           WS_VISIBLE          
+ WC_SCROLLBAR    SBS_RIGHTALIGN         *           <warning>           
+ WC_SCROLLBAR    SBS_LEFTALIGN          *           <warning>           
+ WC_SCROLLBAR    SBS_TOPALIGN           *           <warning>           
+ WC_SCROLLBAR    SBS_BOTTOMALIGN        *           <warning>           
+ WC_SCROLLBAR    SBS_SIZEBOX            *           <warning>           
+ WC_SCROLLBAR    *                      *           WS_VISIBLE          
+ WC_BUTTON       BS_GROUPBOX            WC_STATIC   SS_GROUPBOX         
+ WC_STATIC       BS_GROUPBOX            *           <blank>             
+ WC_STATIC       SS_LEFT                *           SS_TEXT | DT_LEFT   
+ WC_STATIC       SS_CENTER              *           SS_TEXT | DT_CENTER 
+ WC_STATIC       SS_RIGHT               *           SS_TEXT | DT_RIGHT  
+ WC_STATIC       SS_BITMAP              *           SS_ICON             
+ WC_STATIC       SS_LEFTNOWORDWRAP      *           <warning>           
+ WC_STATIC       SS_SIMPLE              *           SS_TEXT | DT_LEFT   
+ WC_STATIC       SS_NOPREFIX            *           <warning>           
+ WC_STATIC       SS_BLACKRECT           *           SS_FGNDRECT         
+ WC_STATIC       SS_GRAYRECT            *           SS_HALFTONERECT     
+ WC_STATIC       SS_WHITERECT           *           SS_BKGNDRECT        
+ WC_STATIC       SS_BLACKFRAME          *           SS_FGNDFRAME        
+ WC_STATIC       SS_GRAYFRAME           *           SS_HALFTONEFRAME    
+ WC_STATIC       SS_WHITEFRAME          *           SS_BKGNDFRAME       
+ WC_STATIC       SS_USERITEM            *           <warning>           
+ WC_STATIC       *                      *           WS_VISIBLE | DT_MNEMONIC
+ dialog          WS_DLGFRAME            *           FS_NOBYTEALIGN | FS_DLGBORDER
+ dialog          WS_POPUP               *           WS_CLIPSIBLINGS | WS_SAVEBITS
+ *               WS_CHILD               *           <blank>             
+ *               WS_BORDER              *           <blank>             
+ WC_BUTTON       BS_DEFPUSHBUTTON       *           BS_DEFAULT          
+ WC_BUTTON       BS_LEFTTEXT            *           <warning>           
+ WC_BUTTON       BS_GROUPBOX            WC_STATIC   SS_GROUPBOX         
+ WC_BUTTON       BS_OWNERDRAW           *           <warning>           
+ WC_BUTTON       *                      *           WS_VISIBLE          
+ WC_COMBOBOX     CBS_OWNERDRAWFIXED     *           <warning>           
+ WC_COMBOBOX     CBS_OWNERDRAWVARIABLE  *           <warning>           
+ WC_COMBOBOX     CBS_AUTOHSCROLL        *           <warning>           
+ WC_COMBOBOX     CBS_SORT               *           <warning>           
+ WC_COMBOBOX     CBS_HASSTRINGS         *           <warning>           
+ WC_COMBOBOX     CBS_OEMCONVERT         *           <warning>           
+ WC_COMBOBOX     WS_VSCROLL             *           <blank>             
+ WC_COMBOBOX     *                      *           WS_VISIBLE          
+ WC_ENTRYFIELD   ES_LOWERCASE           *           <warning>           
+ WC_ENTRYFIELD   ES_UPPERCASE           *           <warning>           
+ WC_ENTRYFIELD   ES_PASSWORD            *           ES_UNREADABLE       
+ WC_ENTRYFIELD   ES_MULTILINE           WC_MLE      <blank>             
+ WC_ENTRYFIELD   ES_AUTOVSCROLL         *           <blank>             
+ WC_ENTRYFIELD   ES_AUTOHSCROLL         *           ES_AUTOSCROLL       
+ WC_ENTRYFIELD   ES_NOHIDESEL           *           <warning>           
+ WC_ENTRYFIELD   ES_OEMCONVERT          *           <warning>           
+ WC_ENTRYFIELD   WS_BORDER              *           ES_MARGIN           
+ WC_ENTRYFIELD   *                      *           WS_VISIBLE          
+ WC_MLE          ES_LOWERCASE           *           <warning>           
+ WC_MLE          ES_UPPERCASE           *           <warning>           
+ WC_MLE          ES_PASSWORD            *           <warning>           
+ WC_MLE          ES_MULTILINE           *           <blank>             
+ WC_MLE          ES_BORDER              *           MLS_BORDER          
+ WC_MLE          WS_BORDER              *           MLS_BORDER          
+ WC_MLE          ES_AUTOVSCROLL         *           MLS_VSCROLL         
+ WC_MLE          ES_AUTOHSCROLL         *           MLS_HSCROLL         
+ WC_MLE          ES_NOHIDESEL           *           <warning>           
+ WC_MLE          ES_OEMCONVERT          *           <warning>           
+ WC_MLE          ES_LEFT                *           <blank>             
+ WC_MLE          ES_RIGHT               *           <blank>             
+ WC_MLE          ES_CENTER              *           <blank>             
+ WC_MLE          *                      *           WS_VISIBLE          
+ WC_LISTBOX      LBS_STANDARD           *           <warning>           
+ WC_LISTBOX      LBS_EXTENDEDSEL        *           LS_MULTIPLESEL      
+ WC_LISTBOX      LBS_HASSTRINGS         *           <warning>           
+ WC_LISTBOX      LBS_NOTIFY             *           <blank>             
+ WC_LISTBOX      LBS_MULTIPLESEL        *           LS_MULTIPLESEL      
+ WC_LISTBOX      LBS_MULTICOLUMN        *           LS_HORIZSCROLL      
+ WC_LISTBOX      LBS_NOINTEGRALHEIGHT   *           LS_NOADJUSTPOS      
+ WC_LISTBOX      LBS_SORT               *           <warning>           
+ WC_LISTBOX      LBS_NOREDRAW           *           <warning>           
+ WC_LISTBOX      LBS_OWNERDRAWFIXED     *           LS_OWNERDRAW        
+ WC_LISTBOX      LBS_OWNERDRAWVARIABLE  *           LS_OWNERDRAW        
+ WC_LISTBOX      LBS_USETABSTOPS        *           <warning>           
+ WC_LISTBOX      LBS_WANTKEYBOARDINPUT  *           <warning>           
+ WC_LISTBOX      WS_VSCROLL             *           <blank>             
+ WC_LISTBOX      *                      *           WS_VISIBLE          
+ WC_SCROLLBAR    SBS_RIGHTALIGN         *           <warning>           
+ WC_SCROLLBAR    SBS_LEFTALIGN          *           <warning>           
+ WC_SCROLLBAR    SBS_TOPALIGN           *           <warning>           
+ WC_SCROLLBAR    SBS_BOTTOMALIGN        *           <warning>           
+ WC_SCROLLBAR    SBS_SIZEBOX            *           <warning>           
+ WC_SCROLLBAR    *                      *           WS_VISIBLE          
+ WC_BUTTON       BS_GROUPBOX            WC_STATIC   SS_GROUPBOX         
+ WC_STATIC       BS_GROUPBOX            *           <blank>             
+ WC_STATIC       SS_LEFT                *           SS_TEXT | DT_LEFT   
+ WC_STATIC       SS_CENTER              *           SS_TEXT | DT_CENTER 
+ WC_STATIC       SS_RIGHT               *           SS_TEXT | DT_RIGHT  
+ WC_STATIC       SS_BITMAP              *           SS_ICON             
+ WC_STATIC       SS_LEFTNOWORDWRAP      *           <warning>           
+ WC_STATIC       SS_SIMPLE              *           SS_TEXT | DT_LEFT   
+ WC_STATIC       SS_NOPREFIX            *           <warning>           
+ WC_STATIC       SS_BLACKRECT           *           SS_FGNDRECT         
+ WC_STATIC       SS_GRAYRECT            *           SS_HALFTONERECT     
+ WC_STATIC       SS_WHITERECT           *           SS_BKGNDRECT        
+ WC_STATIC       SS_BLACKFRAME          *           SS_FGNDFRAME        
+ WC_STATIC       SS_GRAYFRAME           *           SS_HALFTONEFRAME    
+ WC_STATIC       SS_WHITEFRAME          *           SS_BKGNDFRAME       
+ WC_STATIC       SS_USERITEM            *           <warning>           
+ WC_STATIC       *                      *           WS_VISIBLE | DT_MNEMONIC
+ dialog          WS_DLGFRAME            *           FS_NOBYTEALIGN | FS_DLGBORDER
+ dialog          WS_POPUP               *           WS_CLIPSIBLINGS | WS_SAVEBITS
+ *               WS_CHILD               *           <blank>             
+ *               WS_BORDER              *           <blank>             
